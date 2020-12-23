@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninjas To Me!!!</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+        $( "#clickToHide1" ).click(function() {
+            $( "#hideNinja1" ).slideToggle( "slow", function() {
+            });
+        });
+        $( "#clickToHide2" ).click(function() {
+            $( "#hideNinja2" ).fadeOut( "slow", function() {
+            });
+        });
+        $( "#clickToHide3" ).click(function() {
+            $( "#hideNinja3" ).slideToggle( "slow", function() {
+            });
+        });
+        $( "#clickToHide4" ).click(function() {
+            $( "#hideNinja4" ).hide( "fast", function() {
+            });
+        });
+        $( "#clickToHide5" ).click(function() {
+            $( "#hideNinja5" ).hide( "fast", function() {
+            });
+        });
+        $( "#clickToHide6" ).click(function() {
+            $( "#hideNinja6" ).slideUp( "slow", function() {
+            });
+        });
+        $( "#clickToHide7" ).click(function() {
+            $( "#hideNinja7" ).hide( "fast", function() {
+            });
+        });
+        $( "#clickToHide8" ).click(function() {
+            $( "#hideNinja8" ).fadeOut( "slow", function() {
+            });
+        });
+        $( "#toMe" ).click(function() {
+            $( ".returnNinja" ).toggle( "fast", function() {
+            });
+        });
+    });
+    </script>
+    <style type="text/css">
+        #clickToHide1, #clickToHide2, #clickToHide3, #clickToHide4, #clickToHide5, #clickToHide6, #clickToHide7, #clickToHide8 {
+            display: inline-block;
+            margin: 20px;
+        }
+        #allNinjas {
+            background-color: black;
+            padding: 50px;
+            height: 1000px;
+        }
+        #button{
+            margin: 20px;
+            padding: 10px;
+            font-size: large;
+        }
+	</style>
+</head>
+</head>
+<body>
+    <div id="allNinjas">
+        <div id="clickToHide1">
+            <img id="hideNinja1" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <div id="clickToHide2">
+            <img id="hideNinja2" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <div id="clickToHide3">
+            <img id="hideNinja3" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <div id="clickToHide4">
+            <img id="hideNinja4" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <br>
+        <div id="clickToHide5">
+            <img id="hideNinja5" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <div id="clickToHide6">
+            <img id="hideNinja6" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <div id="clickToHide7">
+            <img id="hideNinja7" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <div id="clickToHide8">
+            <img id="hideNinja8" class="returnNinja" src="ninja.png" alt="" width="200" height="200">
+        </div>
+        <div id="toMe">
+            <button id="button"><b>Ninjas To Me!!!</b></button>
+        </div>
+    </div>
+</body>
+</html>
