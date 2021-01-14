@@ -1,3 +1,12 @@
-console.log('Test') ;
+var life = 100 ; // Life bar - int
 
-// Javascript Variables & Data Types
+life = life - 10; // 90
+
+life = life / 10; 
+
+var name = 'Ninja'; // Name - String
+
+
+
+console.log(life);
+
