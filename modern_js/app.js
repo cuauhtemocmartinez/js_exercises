@@ -6,6 +6,10 @@ life = life / 10;
 
 var name = 'Ninja'; // Name - String
 
+var checkout = false
+
+var box;
+
 
 
 console.log(life);
