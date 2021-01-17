@@ -1,5 +1,1 @@
-const myAge = 24;
-
-const yourAge = 21;
-
-console.log(myAge + yourAge);
+console.log("Hello, my name is " + "Alex");
