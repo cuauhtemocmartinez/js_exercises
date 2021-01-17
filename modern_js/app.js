@@ -1,7 +1,14 @@
 const name = "Test Ninja";
 
-function upperCase
+function logger() {
+    console.log("Ninja Time");
+    console.log("Ninja Time");
+    console.log("Ninja Time");
+    console.log("Ninja Time");
+    console.log("Ninja Time");
+}
 
+logger();
 
 // let life = 100;
 
