@@ -1,8 +1,13 @@
-let life = 100;
+const name = "Test Ninja";
 
-life = life - 50;
+function upperCase
 
-console.log(life);
+
+// let life = 100;
+
+// life = life - 50;
+
+// console.log(life);
 
 // var life = 100 ; // Life bar - int
 // life = life - 10; // 90
