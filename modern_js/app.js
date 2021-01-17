@@ -1,24 +1,7 @@
 const name = "Test Ninja";
 
-function logger() {
-    console.log("Ninja Time");
-    console.log("Ninja Time");
-    console.log("Ninja Time");
-    console.log("Ninja Time");
-    console.log("Ninja Time");
+function adder(num1, num2) {
+    console.log(num1 + num2);
 }
 
-logger();
-
-// let life = 100;
-
-// life = life - 50;
-
-// console.log(life);
-
-// var life = 100 ; // Life bar - int
-// life = life - 10; // 90
-// life = life / 10; 
-// var name = 'Ninja'; // Name - String
-// var checkout = false
-// var box;
+adder(5,10);
