@@ -1,7 +1,8 @@
 const name = "Test Ninja";
 
-function adder(num1, num2) {
-    console.log(num1 + num2);
+function toUpper(text) {
+    const upperCased = text.toUpperCase();
+    console.log(upperCased);
 }
 
-adder(5,10);
+toUpper(name);
