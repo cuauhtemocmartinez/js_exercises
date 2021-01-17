@@ -1,8 +1,5 @@
-function toUpper(text) {
-    const upperCased = text.toUpperCase();
-    console.log(upperCased);
-}
+const myAge = 24;
 
-const toUpper = () => {
-    
-}
+const yourAge = 21;
+
+console.log(myAge + yourAge);
