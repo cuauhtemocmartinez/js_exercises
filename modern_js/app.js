@@ -1,11 +1,8 @@
-const age = 10;
+const dice1 = 6;
+const dice2 = 3;
 
-if(age > 18){
-    console.log("You are over 18 years of age")
-} else if(age < 15){
-    console.log("You are under 18 years of age")
-}
-
-else {
-    console.log("You are under 18 years of age")
+if(dice1 === 6 && dice2 === 3){
+    console.log("You rolled a double")
+} else {
+    console.log("Nope!")
 }
