@@ -1,9 +1,5 @@
-const myName = "Alex";
-const age = 30;
+const age = 20;
 
-console.log("Hello, my name is " + myName + " and my age is " + age + ".");
-
-console.log(`Hello, my name is ${myName} and my age is ${age}.`);
-
-console.log(typeof myName);
-console.log(typeof age);
+if(age > 18){
+    console.log("You are over 18 years of age")
+}
