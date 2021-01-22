@@ -4,4 +4,12 @@ const user = {
     purchases: ['phone', 'car', 'laptop']
 };
 
-console.log(user.purchases)
+function apples() {
+    console.log("apples");
+}
+
+
+// THIS
+window.apples();
+
+console.log(this)
