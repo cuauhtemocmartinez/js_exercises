@@ -1,15 +1,11 @@
 const user = {
-    UserName: 'Alex',
+    userName: 'Alex',
     age: 35,
-    purchases: ['phone', 'car', 'laptop']
+    purchases: ['phone', 'car', 'laptop'],
+
+    sayName: function() {
+        console.log(this.userName);
+    }
 };
 
-function apples() {
-    console.log("apples");
-}
-
-
-// THIS
-window.apples();
-
-console.log(this)
+user.sayName();
