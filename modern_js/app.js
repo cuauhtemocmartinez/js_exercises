@@ -1,4 +1,6 @@
 const text = document.querySelector('.title');
 const changeColor = document.querySelector('.changeColor');
 
-text.classList.add('change');
+changeColor.addEventListener('click', function(){
+    text.classList.add('change');
+})
